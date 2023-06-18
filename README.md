@@ -17,7 +17,7 @@ ECDH is described e.g. in [ECDH Key Exchange][5_1].
 
 Given two key pairs: (privA, pubA) and (privB, pubB). Both sides A and B exchange the public keys and compute the point:   
 Side A: sharedSecretPointA = privA * pubB    
-and Side B: sharedSecretPointB = privB * pubA    
+Side B: sharedSecretPointB = privB * pubA    
 
 The following applies:  
 sharedSecretPointA = privA * pubB = privA * privB * G = privB * privA * G = privB * pubA = sharedSecretPointB.  
